@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 
 	"github.com/codegangsta/cli"
-	"github.com/ystyle/jvms/internal/entity"
-	"github.com/ystyle/jvms/utils/jdk"
+	"github.com/snail0109/jvms/internal/entity"
+	"github.com/snail0109/jvms/utils/jdk"
 )
 
 func remove(cfx *entity.Config) *cli.Command {

@@ -9,9 +9,9 @@ import (
 	"strconv"
 
 	"github.com/codegangsta/cli"
-	"github.com/ystyle/jvms/internal/entity"
-	"github.com/ystyle/jvms/utils/file"
-	"github.com/ystyle/jvms/utils/jdk"
+	"github.com/snail0109/jvms/internal/entity"
+	"github.com/snail0109/jvms/utils/file"
+	"github.com/snail0109/jvms/utils/jdk"
 )
 
 func switch_(cfx *entity.Config) *cli.Command {

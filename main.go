@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 
 	"github.com/codegangsta/cli"
+	"github.com/snail0109/jvms/internal/cmdCli"
+	"github.com/snail0109/jvms/internal/entity"
+	"github.com/snail0109/jvms/utils/file"
+	"github.com/snail0109/jvms/utils/web"
 	"github.com/tucnak/store"
-	"github.com/ystyle/jvms/internal/cmdCli"
-	"github.com/ystyle/jvms/internal/entity"
-	"github.com/ystyle/jvms/utils/file"
-	"github.com/ystyle/jvms/utils/web"
 )
 
 var version = "2.1.0"

@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/codegangsta/cli"
-	"github.com/ystyle/jvms/internal/entity"
-	"github.com/ystyle/jvms/utils/web"
+	"github.com/snail0109/jvms/internal/entity"
+	"github.com/snail0109/jvms/utils/web"
 )
 
 func rls(cfx *entity.Config) *cli.Command {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/codegangsta/cli"
-	"github.com/ystyle/jvms/internal/entity"
+	"github.com/snail0109/jvms/internal/entity"
 )
 
 func proxy(cfx *entity.Config) *cli.Command {

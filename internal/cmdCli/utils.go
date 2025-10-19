@@ -8,9 +8,8 @@ import (
 	"strings"
 
 	"github.com/baneeishaque/adoptium_jdk_go"
-	"github.com/ystyle/jvms/internal/entity"
-	"github.com/ystyle/jvms/utils/jdk"
-	"github.com/ystyle/jvms/utils/web"
+	"github.com/snail0109/jvms/internal/entity"
+	"github.com/snail0109/jvms/utils/web"
 )
 
 // getSImilarAvailableVersions by version to support version not found error
@@ -52,11 +51,11 @@ func getJdkVersions(cfx *entity.Config) ([]entity.JdkVersion, error) {
 	}
 
 	//Azul JDKs
-	azulJdks := jdk.AzulJDKs()
-	for _, azulJdk := range azulJdks {
-		versions = append(versions, entity.JdkVersion{Version: azulJdk.ShortName, Url: azulJdk.DownloadURL})
-	}
+	// azulJdks := jdk.AzulJDKs()
+	// for _, azulJdk := range azulJdks {
+	// 	fmt.Println(azulJdk.DownloadURL)
+	// 	versions = append(versions, entity.JdkVersion{Version: azulJdk.ShortName, Url: azulJdk.DownloadURL})
+	// }
 
-	//fmt.Println(versions)
 	return versions, nil
 }

@@ -2,7 +2,7 @@ package cmdCli
 
 import (
 	"github.com/codegangsta/cli"
-	"github.com/ystyle/jvms/internal/entity"
+	"github.com/snail0109/jvms/internal/entity"
 )
 
 type CommandParams struct {

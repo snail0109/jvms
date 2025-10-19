@@ -2,8 +2,9 @@ package jdk
 
 import (
 	"fmt"
-	"github.com/ystyle/jvms/utils/file"
 	"os"
+
+	"github.com/snail0109/jvms/utils/file"
 )
 
 func GetInstalled(root string) []string {

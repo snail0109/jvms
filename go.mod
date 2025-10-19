@@ -1,4 +1,4 @@
-module github.com/ystyle/jvms
+module github.com/snail0109/jvms
 
 go 1.18
 
